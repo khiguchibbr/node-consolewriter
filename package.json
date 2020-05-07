@@ -1,0 +1,26 @@
+{
+  "name": "@khiguchibbr/consolewriter",
+  "version": "0.1.0",
+  "description": "Writer for console",
+  "main": "dist/index.js",
+  "author": "k.higuchi.bbr@gmail.com",
+  "license": "CC0-1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khiguchibbr/node-consolewriter"
+  },
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "test": "jest test",
+    "coverage": "npm test -- --coverage"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
+    "eslint-plugin-jest": "^23.9.0",
+    "jest": "^26.0.1",
+    "jest-cli": "^26.0.1"
+  }
+}
