@@ -1,6 +1,6 @@
-module.export = {
+module.exports = {
   testPathIgnorePatterns: [
     "/node_modules/",
-    "/dist/"
+    "/lib/"
   ]
 }

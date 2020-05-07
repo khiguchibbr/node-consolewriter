@@ -1,8 +1,8 @@
 {
   "name": "@khiguchibbr/consolewriter",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Writer for console",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "author": "Katsuya Higuchi <k.higuchi.bbr@gmail.com>",
   "license": "CC0-1.0",
   "repository": {
@@ -10,12 +10,12 @@
     "url": "https://github.com/khiguchibbr/node-consolewriter"
   },
   "scripts": {
-    "build": "babel src --out-dir dist",
+    "build": "babel src --out-dir lib",
     "test": "jest test",
     "coverage": "npm test -- --coverage"
   },
   "files": [
-    "dist",
+    "lib",
     "src",
     "test",
     "babel.config.js",
