@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Writer for console",
   "main": "dist/index.js",
-  "author": "k.higuchi.bbr@gmail.com",
+  "author": "Katsuya Higuchi <k.higuchi.bbr@gmail.com>",
   "license": "CC0-1.0",
   "repository": {
     "type": "git",
