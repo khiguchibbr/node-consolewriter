@@ -1,6 +1,6 @@
 {
   "name": "@khiguchibbr/consolewriter",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "description": "Writer for console",
   "main": "dist/index.js",
   "author": "Katsuya Higuchi <k.higuchi.bbr@gmail.com>",
@@ -15,7 +15,11 @@
     "coverage": "npm test -- --coverage"
   },
   "files": [
-    "dist"
+    "dist",
+    "src",
+    "test",
+    "babel.config.js",
+    "jest.config.js"
   ],
   "devDependencies": {
     "@babel/cli": "^7.8.4",

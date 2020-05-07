@@ -1,5 +1,5 @@
 
-export default class ConsoleWriter {
+export class ConsoleWriter {
     constructor() {
         this.buf = '';
     }

@@ -1,4 +1,4 @@
-import ConsoleWriter from '../src';
+import { ConsoleWriter } from '../src';
 
 let spyLog;
 beforeEach(() => {
